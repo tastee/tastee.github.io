@@ -28,47 +28,38 @@
             fjs.parentNode.insertBefore(js, fjs);
         }(document, 'script', 'facebook-jssdk'));</script>
 
-    <div id="about" class="navbar-fixed">
-
-        <nav class="red lighten-1" role="navigation">
-            <div class="nav-wrapper container">
-                <a href="#" data-activates="mobile" class="button-collapse">
-                    <i class="material-icons">menu</i>
-                </a>
-                <a id="logo-container" href="#" class="brand-logo">
-                    <img src="img/tastee.png" height="54px" alt="" class="logo-img">
-                </a>
-                <ul id="nav-mobile" class="right hide-on-med-and-down">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#behaviors">Behaviors</a>
-                    </li>
-                    <li>
-                        <a href="#gettingstarted">Getting started</a>
-                    </li>
-                    <li>
-                        <a href=" docs/index.html ">Documentation</a>
-                    </li>
-                </ul>
-                <ul class="side-nav" id="mobile">
-                    <li>
-                        <a href="#about">About</a>
-                    </li>
-                    <li>
-                        <a href="#behaviors">Behaviors</a>
-                    </li>
-                    <li>
-                        <a href="#gettingstarted">Getting started</a>
-                    </li>
-                    <li>
-                        <a href=" docs/index.html ">Documentation</a>
-                    </li>
-                </ul>
-            </div>
-        </nav>
-    </div>
+    <nav class="red lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" data-activates="mobile" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <a id="logo-container" href="#" class="brand-logo">
+                <img src="img/tastee.png" height="54px" alt="" class="logo-img">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#behaviors">Behaviors</a>
+                </li>
+                <li>
+                    <a href="#gettingstarted">Getting started</a>
+                </li>
+                <li>
+                    <a href=" docs/index.html ">Documentation</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile">
+                <li>
+                    <a href="#behaviors">Behaviors</a>
+                </li>
+                <li>
+                    <a href="#gettingstarted">Getting started</a>
+                </li>
+                <li>
+                    <a href=" docs/index.html ">Documentation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
     <div id="index-banner" class="parallax-container">
         <div class="section no-pad-bot">
             <div class="container">
@@ -299,8 +290,9 @@
 
         $(document).ready(function () {
             $('.parallax').parallax();
+            $(".button-collapse").sideNav();
         });
-        $(".button-collapse").sideNav();
+
 
     </script>
 </body>
