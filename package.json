@@ -1,0 +1,29 @@
+{
+  "name": "tastee.github.io",
+  "version": "0.9.0",
+  "description": "Documentation for TAstee",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "./node_modules/.bin/docpress build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tastee/tastee.github.io.git"
+  },
+  "author": "Yan Matagne <ymatagne@norsys.fr>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tastee/tastee.github.io/issues"
+  },
+  "homepage": "https://github.com/tastee/tastee.github.io#readme",
+  "dependencies": {
+    "docpress": "0.7.1",
+    "git-update-ghpages": "1.3.0"
+  },
+  "docpress": {
+    "docs": "src",
+    "github": "tastee/tastee.github.io",
+    "dist": "docs"
+  }
+}
