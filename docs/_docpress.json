@@ -1,0 +1,256 @@
+{
+  "toc": {
+    "sections": [
+      {
+        "title": "Tastee",
+        "source": "README.md",
+        "url": "index.html",
+        "slug": "index"
+      },
+      {
+        "title": "Introduction",
+        "sections": [
+          {
+            "title": "What is it",
+            "source": "src/intro/what-is-it.md",
+            "url": "intro/what-is-it.html",
+            "slug": "introwhat-is-it"
+          },
+          {
+            "title": "Why",
+            "source": "src/intro/why.md",
+            "url": "intro/why.html",
+            "slug": "introwhy"
+          },
+          {
+            "title": "Getting started",
+            "source": "src/intro/getting-started.md",
+            "url": "intro/getting-started.html",
+            "slug": "introgetting-started"
+          },
+          {
+            "title": "Installation",
+            "source": "src/intro/install.md",
+            "url": "intro/install.html",
+            "slug": "introinstall"
+          }
+        ]
+      },
+      {
+        "title": "Installation",
+        "sections": [
+          {
+            "title": "Linux",
+            "source": "src/installation/linux.md",
+            "url": "installation/linux.html",
+            "slug": "installationlinux"
+          },
+          {
+            "title": "Mac OS X",
+            "source": "src/installation/osx.md",
+            "url": "installation/osx.html",
+            "slug": "installationosx"
+          },
+          {
+            "title": "Windows",
+            "source": "src/installation/windows.md",
+            "url": "installation/windows.html",
+            "slug": "installationwindows"
+          }
+        ]
+      },
+      {
+        "title": "How to use",
+        "sections": [
+          {
+            "title": "For your Product",
+            "source": "src/how-to-use/for-your-product.md",
+            "url": "how-to-use/for-your-product.html",
+            "slug": "how-to-usefor-your-product"
+          },
+          {
+            "title": "Recommendation",
+            "source": "src/how-to-use/recommendation.md",
+            "url": "how-to-use/recommendation.html",
+            "slug": "how-to-userecommendation"
+          },
+          {
+            "title": "Desktop Version",
+            "source": "src/how-to-use/desktop.md",
+            "url": "how-to-use/desktop.html",
+            "slug": "how-to-usedesktop"
+          },
+          {
+            "title": "Continuous Integration",
+            "source": "src/how-to-use/continuous-integration.md",
+            "url": "how-to-use/continuous-integration.html",
+            "slug": "how-to-usecontinuous-integration"
+          }
+        ]
+      },
+      {
+        "title": "Showcase",
+        "sections": [
+          {
+            "title": "Examples",
+            "source": "src/showcase/examples.md",
+            "url": "showcase/examples.html",
+            "slug": "showcaseexamples"
+          },
+          {
+            "title": "Who is using it ?",
+            "source": "src/showcase/who-is-using-it.md",
+            "url": "showcase/who-is-using-it.html",
+            "slug": "showcasewho-is-using-it"
+          }
+        ]
+      },
+      {
+        "title": "Development",
+        "sections": [
+          {
+            "title": "Concept",
+            "source": "src/development/concept.md",
+            "url": "development/concept.html",
+            "slug": "developmentconcept"
+          },
+          {
+            "title": "Join Us",
+            "source": "src/development/join-us.md",
+            "url": "development/join-us.html",
+            "slug": "developmentjoin-us"
+          },
+          {
+            "title": "Github",
+            "source": "src/development/github.md",
+            "url": "development/github.html",
+            "slug": "developmentgithub"
+          }
+        ]
+      }
+    ]
+  },
+  "index": {
+    "index.html": {
+      "source": "README.md",
+      "title": "Tastee",
+      "pageTitle": "Tastee",
+      "slug": "index"
+    },
+    "intro/what-is-it.html": {
+      "source": "src/intro/what-is-it.md",
+      "title": "What is it - Tastee",
+      "pageTitle": "What is it",
+      "slug": "introwhat-is-it"
+    },
+    "intro/why.html": {
+      "source": "src/intro/why.md",
+      "title": "Why - Tastee",
+      "pageTitle": "Why",
+      "slug": "introwhy"
+    },
+    "intro/getting-started.html": {
+      "source": "src/intro/getting-started.md",
+      "title": "Getting started - Tastee",
+      "pageTitle": "Getting started",
+      "slug": "introgetting-started"
+    },
+    "intro/install.html": {
+      "source": "src/intro/install.md",
+      "title": "Installation - Tastee",
+      "pageTitle": "Installation",
+      "slug": "introinstall"
+    },
+    "installation/linux.html": {
+      "source": "src/installation/linux.md",
+      "title": "Linux - Tastee",
+      "pageTitle": "Linux",
+      "slug": "installationlinux"
+    },
+    "installation/osx.html": {
+      "source": "src/installation/osx.md",
+      "title": "Mac OS X - Tastee",
+      "pageTitle": "Mac OS X",
+      "slug": "installationosx"
+    },
+    "installation/windows.html": {
+      "source": "src/installation/windows.md",
+      "title": "Windows - Tastee",
+      "pageTitle": "Windows",
+      "slug": "installationwindows"
+    },
+    "how-to-use/for-your-product.html": {
+      "source": "src/how-to-use/for-your-product.md",
+      "title": "For your Product - Tastee",
+      "pageTitle": "For your Product",
+      "slug": "how-to-usefor-your-product"
+    },
+    "how-to-use/recommendation.html": {
+      "source": "src/how-to-use/recommendation.md",
+      "title": "Recommendation - Tastee",
+      "pageTitle": "Recommendation",
+      "slug": "how-to-userecommendation"
+    },
+    "how-to-use/desktop.html": {
+      "source": "src/how-to-use/desktop.md",
+      "title": "Desktop Version - Tastee",
+      "pageTitle": "Desktop Version",
+      "slug": "how-to-usedesktop"
+    },
+    "how-to-use/continuous-integration.html": {
+      "source": "src/how-to-use/continuous-integration.md",
+      "title": "Continuous Integration - Tastee",
+      "pageTitle": "Continuous Integration",
+      "slug": "how-to-usecontinuous-integration"
+    },
+    "showcase/examples.html": {
+      "source": "src/showcase/examples.md",
+      "title": "Examples - Tastee",
+      "pageTitle": "Examples",
+      "slug": "showcaseexamples"
+    },
+    "showcase/who-is-using-it.html": {
+      "source": "src/showcase/who-is-using-it.md",
+      "title": "Who is using it ? - Tastee",
+      "pageTitle": "Who is using it ?",
+      "slug": "showcasewho-is-using-it"
+    },
+    "development/concept.html": {
+      "source": "src/development/concept.md",
+      "title": "Concept - Tastee",
+      "pageTitle": "Concept",
+      "slug": "developmentconcept"
+    },
+    "development/join-us.html": {
+      "source": "src/development/join-us.md",
+      "title": "Join Us - Tastee",
+      "pageTitle": "Join Us",
+      "slug": "developmentjoin-us"
+    },
+    "development/github.html": {
+      "source": "src/development/github.md",
+      "title": "Github - Tastee",
+      "pageTitle": "Github",
+      "slug": "developmentgithub"
+    }
+  },
+  "sources": {
+    "README.md": "index.html",
+    "src/intro/what-is-it.md": "intro/what-is-it.html",
+    "src/intro/why.md": "intro/why.html",
+    "src/intro/getting-started.md": "intro/getting-started.html",
+    "src/intro/install.md": "intro/install.html",
+    "src/installation/linux.md": "installation/linux.html",
+    "src/installation/osx.md": "installation/osx.html",
+    "src/installation/windows.md": "installation/windows.html",
+    "src/how-to-use/for-your-product.md": "how-to-use/for-your-product.html",
+    "src/how-to-use/recommendation.md": "how-to-use/recommendation.html",
+    "src/how-to-use/desktop.md": "how-to-use/desktop.html",
+    "src/how-to-use/continuous-integration.md": "how-to-use/continuous-integration.html",
+    "src/showcase/examples.md": "showcase/examples.html",
+    "src/showcase/who-is-using-it.md": "showcase/who-is-using-it.html",
+    "src/development/concept.md": "development/concept.html",
+    "src/development/join-us.md": "development/join-us.html",
+    "src/development/github.md": "development/github.html"
+  }
+}
