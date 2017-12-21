@@ -14,7 +14,19 @@
             "title": "What is it",
             "source": "src/intro/what-is-it.md",
             "url": "intro/what-is-it.html",
-            "slug": "introwhat-is-it"
+            "slug": "introwhat-is-it",
+            "headings": [
+              {
+                "title": "The promise",
+                "depth": 2,
+                "id": "the-promise"
+              },
+              {
+                "title": "The facts",
+                "depth": 2,
+                "id": "the-facts"
+              }
+            ]
           },
           {
             "title": "Why",
@@ -141,7 +153,19 @@
       "source": "src/intro/what-is-it.md",
       "title": "What is it - Tastee",
       "pageTitle": "What is it",
-      "slug": "introwhat-is-it"
+      "slug": "introwhat-is-it",
+      "headings": [
+        {
+          "title": "The promise",
+          "depth": 2,
+          "id": "the-promise"
+        },
+        {
+          "title": "The facts",
+          "depth": 2,
+          "id": "the-facts"
+        }
+      ]
     },
     "intro/why.html": {
       "source": "src/intro/why.md",
