@@ -1,6 +1,6 @@
 {
   "name": "tastee.github.io",
-  "version": "0.9.0",
+  "version": "0.9.4",
   "description": "Documentation for TAstee",
   "main": "index.js",
   "scripts": {
