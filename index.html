@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="Description" content="Tastee">
+    <title>Tastee — test framework : test made Natural</title>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
+    <link rel="stylesheet" href="css/tastee.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <script src="https://apis.google.com/js/platform.js" async defer></script>
+    <script async defer src="https://buttons.github.io/buttons.js"></script>
+</head>
+
+<body>
+    <div id="fb-root"></div>
+
+    <script>(function (d, s, id) {
+            var js, fjs = d.getElementsByTagName(s)[0];
+            if (d.getElementById(id)) return;
+            js = d.createElement(s); js.id = id;
+            js.src = "https://connect.facebook.net/fr_FR/sdk.js#xfbml=1&version=v2.7";
+            fjs.parentNode.insertBefore(js, fjs);
+        }(document, 'script', 'facebook-jssdk'));</script>
+
+    <nav class="red lighten-1" role="navigation">
+        <div class="nav-wrapper container">
+            <a href="#" data-activates="mobile" class="button-collapse">
+                <i class="material-icons">menu</i>
+            </a>
+            <a id="logo-container" href="#" class="brand-logo">
+                <img src="img/tastee.png" height="54px" alt="" class="logo-img">
+            </a>
+            <ul id="nav-mobile" class="right hide-on-med-and-down">
+                <li>
+                    <a href="#behaviors">Behaviors</a>
+                </li>
+                <li>
+                    <a href="#gettingstarted">Getting started</a>
+                </li>
+                <li>
+                    <a href=" docs/index.html ">Documentation</a>
+                </li>
+            </ul>
+            <ul class="side-nav" id="mobile">
+                <li>
+                    <a href="#behaviors">Behaviors</a>
+                </li>
+                <li>
+                    <a href="#gettingstarted">Getting started</a>
+                </li>
+                <li>
+                    <a href=" docs/index.html ">Documentation</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <div id="index-banner" class="parallax-container">
+        <div class="section no-pad-bot">
+            <div class="container">
+                <h1 class="header center teal-text text-lighten-2">Tastee</h1>
+                <div class="row center">
+                    <h5 class="header col s12 light">Toast your Application with Simple Tests End to End</h5>
+                </div>
+                <div class="row center">
+                    <a href="#gettingstarted" id="download-button" class="btn-large waves-effect waves-light #e57373 red lighten-2">Get Started</a>
+                </div>
+            </div>
+        </div>
+        <div class="parallax">
+            <img src="img/home.png" alt="">
+        </div>
+    </div>
+    <div class="section white">
+
+        <!--   Icon Section   -->
+        <div class="row container">
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center brown-text">
+                        <i class="large material-icons">supervisor_account</i>
+                    </h2>
+                    <h5 class="center red-text text-darken-5">Open Source</h5>
+
+                    <p class="center-align light">The tool is open source and you can if you want to help us develop and complete it to implement other
+                        behaviors for your specific need.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center brown-text">
+                        <i class="large material-icons">zoom_in</i>
+                    </h2>
+                    <h5 class="center red-text text-darken-5 ">User Experience</h5>
+
+                    <p class="center-align  light">Don't you wait for developers to describe the behavior of your application? With Tastee, you are self-employed
+                        to write your own behavioral tests.</p>
+                </div>
+            </div>
+
+            <div class="col s12 m4">
+                <div class="icon-block">
+                    <h2 class="center brown-text ">
+                        <i class="large material-icons">settings_power</i>
+                    </h2>
+                    <h5 class="center red-text text-darken-5">Easy to use</h5>
+
+                    <p class="center-align  light">To begin to describe the behavior of your applications, simply download the software to your computer
+                        directly!
+                    </p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="behaviors" class="parallax-container">
+        <div class="parallax">
+            <img src="img/behaviors.png" alt="">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3>
+                        <i class="mdi-content-send brown-text"></i>
+                    </h3>
+                    <h2 class="header red-text text-darken-5">Behavior Driven Development Testing</h2>
+                    <p class="center-align light">Because guessing the behavior of an application becomes as complicated as us, we wanted to create a simple
+                        tool allowing you to write your behavior scenarios on your application in order to be able to launch
+                        them automatically backwards.</p>
+
+                    <p class="center-align light">Indeed, we have created a Text Editor that allows you to write HTML files. These HTML files are then
+                        run on different browsers like Chrome and / or Firefox.</p>
+
+                    <p class="center-align light">You have the possibility of customizing all of these files that we have called Tastee File. These files
+                        are then integrated into a test report once their executions are complete.</p>
+
+                    <p class="center-align light">You also have the possibility to create your own functions but also to use keywords or variables to generalize
+                        all of your files.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div id="gettingstarted" class="parallax-container">
+        <div class="parallax">
+            <img src="img/humor.jpg" alt="">
+        </div>
+    </div>
+    <div class="section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3>
+                        <i class="mdi-content-send brown-text"></i>
+                    </h3>
+                    <h2 class="header red-text text-darken-5">How to use tastee ?</h2>
+                    <p>It's very simple, just download the executable according to your operating system:</p>
+                    <ul class="collection">
+                        <li class="collection-item avatar">
+                            <img src="img/windows.png" alt="" class="circle">
+                            <span class="title">Windows</span>
+                            <p>
+                                <a href="https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui.0.9.4.exe">Click here to download</a>
+                            </p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="img/linux.png" alt="" class="circle">
+                            <span class="title">Linux</span>
+                            <p>
+                                <a href="https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4-x86_64.AppImage">Click here to download</a>
+                            </p>
+                        </li>
+                        <li class="collection-item avatar">
+                            <img src="img/osx.png" alt="" class="circle">
+                            <span class="title">OS X</span>
+                            <p>
+                                <a href="https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4.dmg">Click here to download</a>
+                            </p>
+                        </li>
+                    </ul>
+
+                    <p>The documentation is described
+                        <a href="https://tastee.github.io/docs/index.html">here</a>.</p>
+                </div>
+                <video class="materialboxed" width="100%" controls>
+                    <source src="intro.mp4" type="video/mp4">
+                </video>
+
+            </div>
+        </div>
+    </div>
+
+    <div id="gettingstarted" class="parallax-container">
+        <div class="parallax">
+            <img src="img/food.jpg" alt="">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h2 class="header red-text text-darken-5">Who's eating Tastee?</h2>
+                    <img src="img/norsys.png" alt="" class="responsive-img">
+                </div>
+            </div>
+        </div>
+    </div>
+    <footer class="page-footer #d32f2f red darken-2">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Company Bio</h5>
+                    <p class="grey-text text-lighten-4">We are a team of friends working on this project. We wish both finish once and for all with the frameworks
+                        e-2-e too complicated for our taste.</p>
+
+
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Tracking</h5>
+                    <ul>
+                        <li>
+                            <a href="https://www.codacy.com/app/tastee/tastee-core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tastee/tastee-core&amp;utm_campaign=Badge_Grade">
+                                <img src="https://api.codacy.com/project/badge/Grade/4bb2ab1ad50e438685ed89f47aac65e8" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://www.codacy.com/app/tastee/tastee-core?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=tastee/tastee-core&amp;utm_campaign=Badge_Coverage">
+                                <img src="https://api.codacy.com/project/badge/Coverage/4bb2ab1ad50e438685ed89f47aac65e8" />
+                            </a>
+                        </li>
+                        <li>
+                            <a href="https://travis-ci.org/tastee/tastee-core">
+                                <img alt="Build Status" src="https://travis-ci.org/tastee/tastee-core.svg?branch=master" style="max-width:100%;">
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+                <div class="col l3 s12">
+                    <h5 class="white-text">Connect</h5>
+                    <ul>
+                        <li>
+                            <a class="github-button" href="https://github.com/tastee/tastee-core" data-icon="octicon-star" data-style="mega" data-count-href="/tastee/tastee-core/stargazers"
+                                data-count-api="/repos/tastee/tastee-core#stargazers_count" data-count-aria-label="# stargazers on GitHub"
+                                aria-label="Star tastee/tastee-core on GitHub">Star</a>
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/tastee_is_good" class="twitter-follow-button" data-show-count="false">Follow @tastee_is_good</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+
+                        </li>
+                        <li>
+                            <a href="https://twitter.com/intent/tweet?screen_name=tastee_is_good" class="twitter-mention-button" data-show-count="false">Tweet to @tastee_is_good</a>
+                            <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+                        </li>
+                        <li>
+                            <div class="g-plusone" data-size="medium"></div>
+                        </li>
+                        <li>
+                            <div class="fb-like" data-href="https://www.facebook.com/Tastee-1741992322735091/" data-layout="button_count" data-action="like"
+                                data-size="small" data-show-faces="false" data-share="false"></div>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container">
+                Licenced under
+                <a class="brown-text text-lighten-3" href="https://github.com/tastee/tastee-core/blob/master/LICENSE">The Apache 2 License</a>
+            </div>
+        </div>
+    </footer>
+
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script type="text/javascript" src="js/materialize.min.js"></script>
+    <script type="text/javascript">
+
+        $(document).ready(function () {
+            $('.parallax').parallax();
+            $(".button-collapse").sideNav();
+        });
+
+
+    </script>
+</body>
+
+</html>
