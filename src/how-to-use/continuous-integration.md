@@ -39,6 +39,6 @@ When you launch this build, reports will automatically be generated.
 
 Here's an example of a report you can get:
 
-![alt text](../../reporting_home.png "Index of Reporting")
+![alt text](https://github.com/tastee/tastee.github.io/blob/master/reporting_home.png?raw=true "Index of Reporting")
 
-![alt text](../../reporting_example.png "Result of your tastee file")
+![alt text](https://github.com/tastee/tastee.github.io/blob/master/reporting_example.png?raw=true "Result of your tastee file")
