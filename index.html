@@ -4,8 +4,13 @@
 <head>
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="Description" content="Tastee">
-    <title>Tastee — test framework : test made Natural</title>
+    <title>Tastee — test tool : test made Natural</title>
+    <meta name="Description" content="Tastee is a tool that helps you write interactive tests using 
+    ubiquitous executable specifications or your domain specific language (DSL). It can be used in any conventional way of testing UI but 
+    also fits really well with Behavior Driven Development (BDD) keeping your specification, tests and 
+    documentation up to date without the need of any developer's skills">
+    <link rel="icon" type="image/x-icon" href="img/tastee.png">
+
     <!--Import Google Icon Font-->
     <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
     <link type="text/css" rel="stylesheet" href="css/materialize.min.css" media="screen,projection" />
@@ -34,14 +39,17 @@
                 <i class="material-icons">menu</i>
             </a>
             <a id="logo-container" href="#" class="brand-logo">
-                <img src="img/tastee.png" height="54px" alt="" class="logo-img">
+                <img src="img/tastee.png" height="54px" alt="Tastee logo" class="logo-img">
             </a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
                 <li>
-                    <a href="#behaviors">Behaviors</a>
+                    <a href="#behaviors">BDD</a>
                 </li>
                 <li>
                     <a href="#gettingstarted">Getting started</a>
+                </li>
+                <li>
+                    <a href="#features">Features</a>
                 </li>
                 <li>
                     <a href=" docs/index.html ">Documentation</a>
@@ -49,10 +57,13 @@
             </ul>
             <ul class="side-nav" id="mobile">
                 <li>
-                    <a href="#behaviors">Behaviors</a>
+                    <a href="#behaviors">BDD</a>
                 </li>
                 <li>
                     <a href="#gettingstarted">Getting started</a>
+                </li>
+                <li>
+                    <a href="#features">Features</a>
                 </li>
                 <li>
                     <a href=" docs/index.html ">Documentation</a>
@@ -73,22 +84,111 @@
             </div>
         </div>
         <div class="parallax">
-            <img src="img/home.png" alt="">
+            <img src="img/home.png" alt="Tastee home">
         </div>
     </div>
+
+    <div class="section" id="behaviors">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <h3>
+                        <i class="mdi-content-send brown-text"></i>
+                    </h3>
+                    <h3 class="header red-text text-darken-5">Made for Behavior Driven Development (BDD)</h3>
+
+                    <p class="center-align light">Because working with user behaviors is <b>not a matter of technique</b>, but of human thinking. 
+                        Tastee have been made to allow anyone to  <b>write its own automated test scenarios in a very simple manner</b>.</p>
+
+                    <p class="center-align light">In fact, most of the tools made for BDD allow you to write your own scenarios in your own desgin specific language (DSL)
+                        , but at the end, you still need developer's skills to automate them and being able to run them. We believe Tastee will help you to go deeper in this 
+                        methodology by taking care of this technical part </p>
+
+                    <p class="center-align light">Indeed, Tastee starts with a  <b>"Browser Specific Language"</b> since, as a website user, you are first a browser user. 
+                        In your browser, your actions are limited to very simple instructions like "Going to a website', 'Clicking on buttons or links", "Checking some contents", ...<br/>
+                    Then, by combining these simple instructions, you creates more complexe ones like "Connect using a user and password" and so on ... </p>
+                </div>
+            </div>
+            <!--   example Section   -->
+            <div class="row center">
+                <div class="col s12 m2">
+                    <div class="icon-block">
+                        <img src="img/browser.svg" alt="go to" width="100%">
+                        <p class="center-align light">Go to the Login Page</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m1" style="vertical-align: middle">
+                    <div class="icon-block">
+                        <h3 class="center-align">+</h3>
+                    </div>
+                </div>
+    
+                <div class="col s12 m2">
+                    <div class="icon-block">
+                        <img src="img/field.svg" alt="fill fields" width="100%">
+                        <p class="center-align light">Fill the fields</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m1">
+                    <div class="icon-block">
+                            <h3 class="center-align">+</h3>
+                    </div>
+                </div>
+    
+                <div class="col s12 m2">
+                    <div class="icon-block">
+                        <img src="img/button.svg" alt="click on" width="100%">
+                        <p class="center-align light">Clic on button</p>
+                    </div>
+                </div>
+
+                <div class="col s12 m1">
+                    <div class="icon-block">
+                            <h3 class="center-align">=</h3>
+                    </div>
+                </div>
+    
+                <div class="col s12 m2">
+                    <div class="icon-block">
+                        <img src="img/login.svg" alt="Conntect to" width="100%">
+                        <p class="center-align light">Connect using $user and $password</p>
+                    </div>
+                </div>
+    
+            </div>
+            <div class="row">
+                <div class="col s12 center">
+                    <p class="center-align">At the end, by combining all these instructions, you'll be able to open an <b>infinite world of testing behaviour</b> that can be enhanced by the community.</p>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+    <div class="parallax-container">
+        <div class="parallax">
+            <img src="img/behaviors.png" alt="Behave">
+        </div>
+    </div>
+
     <div class="section white">
 
         <!--   Icon Section   -->
         <div class="row container">
+
             <div class="col s12 m4">
                 <div class="icon-block">
-                    <h2 class="center brown-text">
-                        <i class="large material-icons">supervisor_account</i>
+                    <h2 class="center brown-text ">
+                        <i class="large material-icons">settings_power</i>
                     </h2>
-                    <h5 class="center red-text text-darken-5">Open Source</h5>
+                    <h5 class="center red-text text-darken-5">Easy to use</h5>
 
-                    <p class="center-align light">The tool is open source and you can if you want to help us develop and complete it to implement other
-                        behaviors for your specific need.</p>
+                    <p class="center-align  light">To begin to describe the behavior of your applications, simply <a href="#gettingstarted">download</a> the editor and start using it !
+                        directly!
+                    </p>
                 </div>
             </div>
 
@@ -100,62 +200,30 @@
                     <h5 class="center red-text text-darken-5 ">User Experience</h5>
 
                     <p class="center-align  light">Don't you wait for developers to describe the behavior of your application? With Tastee, you are self-employed
-                        to write your own behavioral tests.</p>
+                        to write and execute your own behavioral tests.</p>
                 </div>
             </div>
 
             <div class="col s12 m4">
                 <div class="icon-block">
-                    <h2 class="center brown-text ">
-                        <i class="large material-icons">settings_power</i>
+                    <h2 class="center brown-text">
+                        <i class="large material-icons">supervisor_account</i>
                     </h2>
-                    <h5 class="center red-text text-darken-5">Easy to use</h5>
+                    <h5 class="center red-text text-darken-5">Open Source</h5>
 
-                    <p class="center-align  light">To begin to describe the behavior of your applications, simply download the software to your computer
-                        directly!
+                    <p class="center-align light">
+                        The editor and its engine are open sourced.<br/>
+                        You can help the community by completing and publishing "Browser Specific Language" in your own language.<br/>
+                        Developpers can provide help on languages and tools
                     </p>
                 </div>
             </div>
 
         </div>
     </div>
-
-    <div id="behaviors" class="parallax-container">
-        <div class="parallax">
-            <img src="img/behaviors.png" alt="">
-        </div>
-    </div>
-
-    <div class="section">
-        <div class="container">
-
-            <div class="row">
-                <div class="col s12 center">
-                    <h3>
-                        <i class="mdi-content-send brown-text"></i>
-                    </h3>
-                    <h2 class="header red-text text-darken-5">Behavior Driven Development Testing</h2>
-                    <p class="center-align light">Because guessing the behavior of an application becomes as complicated as us, we wanted to create a simple
-                        tool allowing you to write your behavior scenarios on your application in order to be able to launch
-                        them automatically backwards.</p>
-
-                    <p class="center-align light">Indeed, we have created a Text Editor that allows you to write HTML files. These HTML files are then
-                        run on different browsers like Chrome and / or Firefox.</p>
-
-                    <p class="center-align light">You have the possibility of customizing all of these files that we have called Tastee File. These files
-                        are then integrated into a test report once their executions are complete.</p>
-
-                    <p class="center-align light">You also have the possibility to create your own functions but also to use keywords or variables to generalize
-                        all of your files.</p>
-                </div>
-            </div>
-
-        </div>
-    </div>
-
     <div id="gettingstarted" class="parallax-container">
         <div class="parallax">
-            <img src="img/humor.jpg" alt="">
+            <img src="img/humor.jpg" alt="humor">
         </div>
     </div>
     <div class="section">
@@ -166,25 +234,25 @@
                     <h3>
                         <i class="mdi-content-send brown-text"></i>
                     </h3>
-                    <h2 class="header red-text text-darken-5">How to use tastee ?</h2>
-                    <p>It's very simple, just download the executable according to your operating system:</p>
+                    <h2 class="header red-text text-darken-5">How to use Tastee ?</h2>
+                    <p>It's very simple, just download the executable according to your operating system and launch:</p>
                     <ul class="collection">
                         <li class="collection-item avatar">
-                            <img src="img/windows.png" alt="" class="circle">
+                            <img src="img/windows.png" alt="windows" class="circle">
                             <span class="title">Windows</span>
                             <p>
                                 <a href="https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui.0.9.4.exe">Click here to download</a>
                             </p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/linux.png" alt="" class="circle">
+                            <img src="img/linux.png" alt="linux" class="circle">
                             <span class="title">Linux</span>
                             <p>
                                 <a href="https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4-x86_64.AppImage">Click here to download</a>
                             </p>
                         </li>
                         <li class="collection-item avatar">
-                            <img src="img/osx.png" alt="" class="circle">
+                            <img src="img/osx.png" alt="OSx" class="circle">
                             <span class="title">OS X</span>
                             <p>
                                 <a href="https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4.dmg">Click here to download</a>
@@ -194,18 +262,41 @@
 
                     <p>The documentation is described
                         <a href="https://tastee.github.io/docs/index.html">here</a>.</p>
+                    
+                        <iframe width="560" height="315" src="https://www.youtube.com/embed/Tr8ILpk7VDY" frameborder="0" gesture="media" allow="encrypted-media" allowfullscreen></iframe>
                 </div>
-                <video class="materialboxed" width="100%" controls>
-                    <source src="intro.mp4" type="video/mp4">
-                </video>
+                
+                    
+            </div>
+        </div>
+    </div>
 
+    <div id="features" class="parallax-container">
+        <div class="parallax">
+            <img src="img/feature.jpg" alt="humor">
+        </div>
+    </div>
+
+    <div class="section">
+        <div class="container">
+
+            <div class="row">
+                <div class="col s12 center">
+                    <p class="center-align light">Tastee comes with a <b>Text Editor</b> that allows you to write HTML files that can be executed on different browsers like Chrome and / or Firefox.</p>
+
+                    <p class="center-align light">You have the possibility to customize these HTML files that we have called Tastee Files. These Tastee files
+                            are then integrated into a <b>test report</b> once their executions are completed, giving you the possibility to include logos, schemas and any other HTML features.</p>
+
+                    <p class="center-align light">To improve readability of Tastee Files, you can <b>create your own Instructions</b>, based on the other ones, extract variables that might not be readable enough, and reuse them in any of yours.</p>
+                    <p>A good starter, would be to use the <a href="https://github.com/tastee/tastee-examples">"common" instructions</a> shared by the community : </p>
+                </div>
             </div>
         </div>
     </div>
 
     <div id="gettingstarted" class="parallax-container">
         <div class="parallax">
-            <img src="img/food.jpg" alt="">
+            <img src="img/food.jpg" alt="food">
         </div>
     </div>
 
@@ -215,7 +306,7 @@
             <div class="row">
                 <div class="col s12 center">
                     <h2 class="header red-text text-darken-5">Who's eating Tastee?</h2>
-                    <img src="img/norsys.png" alt="" class="responsive-img">
+                    <a href="https://www.norsys.fr/"><img src="img/norsys.png" alt="Norsys" title="Norsys" class="responsive-img"></a>
                 </div>
             </div>
         </div>
@@ -224,9 +315,9 @@
         <div class="container">
             <div class="row">
                 <div class="col l6 s12">
-                    <h5 class="white-text">Company Bio</h5>
-                    <p class="grey-text text-lighten-4">We are a team of friends working on this project. We wish both finish once and for all with the frameworks
-                        e-2-e too complicated for our taste.</p>
+                    <h5 class="white-text">Tastee's Bio</h5>
+                    <p class="grey-text text-lighten-4">We are a team of friends, helped by Norsys, working on this project. We wish both finish once and for all with the frameworks
+                        e-2-e too complicated for our taste and improve quality of software by helping them to be tested easily.</p>
 
 
                 </div>
@@ -281,7 +372,7 @@
         <div class="footer-copyright">
             <div class="container">
                 Licenced under
-                <a class="brown-text text-lighten-3" href="https://github.com/tastee/tastee-core/blob/master/LICENSE">The Apache 2 License</a>
+                <a class="brown-text text-lighten-3" href="https://github.com/tastee/tastee-core/blob/master/LICENSE.md">MIT License</a>
             </div>
         </div>
     </footer>
@@ -295,7 +386,6 @@
             $('.parallax').parallax();
             $(".button-collapse").sideNav();
         });
-
 
     </script>
 </body>
