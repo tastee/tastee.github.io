@@ -1,20 +1,27 @@
 # Windows
 
-Chromedriver is the driver to control Chrome from Selenium. This driver is a prerequisite for using Tastee if you want to use Chrome in Tastee.
+Chromedriver is the driver to control Chrome from Selenium. This driver and the Chrome browser are a prerequisite for using Tastee.
 
-Geckodriver is the driver to control Firefox from Selenium. This driver is a prerequisite for using Tastee if you want to use Firefox in Tastee.
+## Install Chrome
 
-1. Install Chromedriver
+Make sure you have a Chrome browser installed on your Desktop.
 
-...You can download Chromedriver [here](https://chromedriver.storage.googleapis.com/2.34/chromedriver_win32.zip).
-...Add Chromedriver in your path.
+If not, go to [https://www.google.fr/chrome/index.html](https://www.google.fr/chrome/index.html) and follow installation steps
 
-2. Install Geckodriver
+## Install Chromedriver
 
-...You can download Geckodriver [here](https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-win64.zip).
-...Add GeckoDriver in your path.
+Follow this [steps](http://chromedriver.chromium.org/getting-started) to install Chromedriver.
 
-3. Download and Install Tastee
+NOTE : Chromedriver have to be referenced in your System PATH, not only in your user PATH
 
-...You can download Tastee [here](https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui.0.9.4.exe)
-...Install Tastee
+## Download and launch Tastee
+
+Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui.0.9.4.exe)
+
+To launch Tastee, launch `tastee-ui-xxx.exe`
+
+## Troubleshooting
+
+### Chrome doesn't launch
+
+You might have set Chromedriver executable path in your user profile PATH variable. To launch, Tastee needs to access ChromeDriver from the System PATH.
