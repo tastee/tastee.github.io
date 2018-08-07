@@ -12,7 +12,7 @@ In case of humain problems, you won't find any solutions in tools, and Tastee wi
 
 Many failure statements claims that making scenarios executable and automate them is too costly for the project. In fact, Developpers have to implement the code that will make scenarios executable (using [Selenium](https://www.seleniumhq.org/) for example), but they also have to write the code to implement the software needs, and when the time comes to release, to fix critical bugs, the implement new features, scenarios are described, software code is written, but noone have time to write code to make the link between them. (They usualy forget that they are behaviour-driven and the project become code-driven).
 
-A solution usualy stated is to follow basic syntax rules such as Gherkin by using steps and keywords making them reusable and, therefore, are already implmented within the code. This is called a Domain Specific Language (DSL)
+A solution usualy stated is to follow basic syntax rules such as [Gherkin](https://martinfowler.com/bliki/GivenWhenThen.html) by using steps and keywords making them reusable and, therefore, are already implmented within the code. This is called a Domain Specific Language (DSL)
 
 Using a specific DSL will then bring complexity to stakeholders that have to follow it to describe the needs which is another cause of faillure : stakeholders are having troubles to describe precise scenarios while following a DSL.
 
