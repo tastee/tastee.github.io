@@ -8,5 +8,5 @@ Tastee is a tool that allows you perform end to end tests of your application. I
 
 The different scenarios are written using a natural language (DSL), you can also write your own DSL using your words.
 
-Tastee is design for being accessible for everyone, you can write your tests using the Tastee Editor, and, in the same time, debug your current test scenario from your desktop.
+Tastee is designed for being accessible for everyone, you can write your tests using the Tastee Editor, and, in the same time, debug your current test scenario from your desktop.
 The execution of Tastee tests generates beautiful reports embedding your test scenarios.
