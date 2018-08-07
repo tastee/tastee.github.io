@@ -201,18 +201,6 @@
       "pageTitle": "Why",
       "slug": "introwhy"
     },
-    "intro/getting-started.html": {
-      "source": "src/intro/getting-started.md",
-      "title": "Getting started - Tastee",
-      "pageTitle": "Getting started",
-      "slug": "introgetting-started"
-    },
-    "intro/install.html": {
-      "source": "src/intro/install.md",
-      "title": "Installation - Tastee",
-      "pageTitle": "Installation",
-      "slug": "introinstall"
-    },
     "installation/linux.html": {
       "source": "src/installation/linux.md",
       "title": "Linux - Tastee",
@@ -230,6 +218,12 @@
       "title": "Windows - Tastee",
       "pageTitle": "Windows",
       "slug": "installationwindows"
+    },
+    "how-to-use/getting-started.html": {
+      "source": "src/how-to-use/getting-started.md",
+      "title": "Getting started - Tastee",
+      "pageTitle": "Getting started",
+      "slug": "how-to-usegetting-started"
     },
     "how-to-use/for-your-product.html": {
       "source": "src/how-to-use/for-your-product.md",
@@ -290,11 +284,10 @@
     "README.md": "index.html",
     "src/intro/what-is-it.md": "intro/what-is-it.html",
     "src/intro/why.md": "intro/why.html",
-    "src/intro/getting-started.md": "intro/getting-started.html",
-    "src/intro/install.md": "intro/install.html",
     "src/installation/linux.md": "installation/linux.html",
     "src/installation/osx.md": "installation/osx.html",
     "src/installation/windows.md": "installation/windows.html",
+    "src/how-to-use/getting-started.md": "intro/getting-started.html",
     "src/how-to-use/for-your-product.md": "how-to-use/for-your-product.html",
     "src/how-to-use/recommendation.md": "how-to-use/recommendation.html",
     "src/how-to-use/desktop.md": "how-to-use/desktop.html",
