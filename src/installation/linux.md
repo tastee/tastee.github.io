@@ -1,20 +1,29 @@
 # Linux
 
-Chromedriver is the driver to control Chrome from Selenium. This driver is a prerequisite for using Tastee if you want to use Chrome in Tastee.
+Chromedriver is the driver to control Chrome from Selenium. This driver and the Chrome browser are a prerequisite for using Tastee.
 
-Geckodriver is the driver to control Firefox from Selenium. This driver is a prerequisite for using Tastee if you want to use Firefox in Tastee.
+## Install Chromedriver
 
-1. Install Chromedriver
+To install Chromedriver with a Chromium browser, you can use Ubuntu packages :
 
-...You can download Chromedriver [here](https://chromedriver.storage.googleapis.com/2.34/chromedriver_linux64.zip).
-...Add Chromedriver in your path.
+```sh
+ sudo apt-get install chromium-chromedriver
+ sudo ln -s /usr/lib/chromium-browser/chromedriver /usr/bin/chromedriver
+```
 
-2. Install Geckodriver
+## Download and Install Tastee
 
-...You can download Geckodriver [here](https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-linux64.tar.gz).
-...Add GeckoDriver in your path.
+Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage)
 
-3. Download and Install Tastee
+To install Tastee, launch `tastee-ui-xxx.AppImage`
 
-...You can download Tastee [here](https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4-x86_64.AppImage)
-...Install Tastee
+## Troubleshooting
+
+### Tastee doesn't launch
+
+The file downloaded might not be executable.  
+To do so, in a Terminal, launch :
+
+```sh
+chmod +x tastee-ui-*.AppImage
+```

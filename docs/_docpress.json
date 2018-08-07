@@ -45,18 +45,6 @@
                 "id": "tastee-is-different"
               }
             ]
-          },
-          {
-            "title": "Getting started",
-            "source": "src/intro/getting-started.md",
-            "url": "intro/getting-started.html",
-            "slug": "introgetting-started"
-          },
-          {
-            "title": "Installation",
-            "source": "src/intro/install.md",
-            "url": "intro/install.html",
-            "slug": "introinstall"
           }
         ]
       },
@@ -67,7 +55,29 @@
             "title": "Linux",
             "source": "src/installation/linux.md",
             "url": "installation/linux.html",
-            "slug": "installationlinux"
+            "slug": "installationlinux",
+            "headings": [
+              {
+                "title": "Install Chromedriver",
+                "depth": 2,
+                "id": "install-chromedriver"
+              },
+              {
+                "title": "Download and Install Tastee",
+                "depth": 2,
+                "id": "download-install-tastee"
+              },
+              {
+                "title": "Troubleshooting",
+                "depth": 2,
+                "id": "troubleshooting"
+              },
+              {
+                "title": "Tastee doesn't launch",
+                "depth": 3,
+                "id": "tastee-doesn-t-launch"
+              }
+            ]
           },
           {
             "title": "Mac OS X",
@@ -86,6 +96,12 @@
       {
         "title": "How to use",
         "sections": [
+          {
+            "title": "Getting started",
+            "source": "src/how-to-use/getting-started.md",
+            "url": "how-to-use/getting-started.html",
+            "slug": "how-to-usegetting-started"
+          },
           {
             "title": "For your Product",
             "source": "src/how-to-use/for-your-product.md",
