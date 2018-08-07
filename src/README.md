@@ -5,13 +5,12 @@ Documentation
 * Introduction
   * [What is it](intro/what-is-it.md)
   * [Why](intro/why.md)
-  * [Getting started](intro/getting-started.md)
-  * [Installation](intro/install.md)
 * Installation
   * [Linux](installation/linux.md)
   * [Mac OS X](installation/osx.md)
   * [Windows](installation/windows.md)
 * How to use
+  * [Getting started](how-to-use/getting-started.md)
   * [For your Product](how-to-use/for-your-product.md)
   * [Recommendation](how-to-use/recommendation.md)
   * [Desktop Version](how-to-use/desktop.md)
