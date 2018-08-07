@@ -1,6 +1,36 @@
-# Why ?
-In software engineering, behavior-driven development (BDD) is a software development process that emerged from test-driven development (TDD). Behavior-driven development combines the general techniques and principles of TDD with ideas from domain-driven design and object-oriented analysis and design to provide software development and management teams with shared tools and a shared process to collaborate on software development.
+# Why ? 
 
-Although BDD is principally an idea about how software development should be managed by both business interests and technical insight, the practice of BDD does assume the use of specialized software tools to support the development process. Although these tools are often developed specifically for use in BDD projects, they can be seen as specialized forms of the tooling that supports test-driven development. The tools serve to add automation to the ubiquitous language that is a central theme of BDD.
+There are many existing Behaviour-Driven Development tools available that help to write and execute software specifications in order to validate what scenarios and examples say. Some of them, like [Cucumber](https://cucumber.io/), are already widely used and fits many project needs.
 
-BDD is largely facilitated through the use of a simple domain-specific language (DSL) using natural language constructs (e.g., English-like sentences) that can express the behavior and the expected outcomes. Test scripts have long been a popular application of DSLs with varying degrees of sophistication. BDD is considered an effective technical practice especially when the "problem space" of the business problem to solve is complex.
+## So, Why another BDD tool ?
+
+Unfortunately, some projects are still failing to implement BDD even if they believe it would help them design better softwares.
+
+So, let's think about the reasons of these failures. Mainly 2 causes are brought by many blogs : it is either a humain problem, either a matter of techniques.
+
+In case of humain problems, you won't find any solutions in tools, and Tastee will not give you the right answer, too. Take time to review your organization and read about [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) implementation
+
+Many failure statements claims that making scenarios executable and automate them is too costly for the project. In fact, Developpers have to implement the code that will make scenarios executable (using [Selenium](https://www.seleniumhq.org/) for example), but they also have to write the code to implement the software needs, and when the time comes to release, to fix critical bugs, the implement new features, scenarios are described, software code is written, but noone have time to write code to make the link between them. (They usualy forget that they are behaviour-driven and the project become code-driven).
+
+A solution usualy stated is to follow basic syntax rules such as Gherkin by using steps and keywords making them reusable and, therefore, are already implmented within the code. This is called a Domain Specific Language (DSL)
+
+Using a specific DSL will then bring complexity to stakeholders that have to follow it to describe the needs which is another cause of faillure : stakeholders are having troubles to describe precise scenarios while following a DSL.
+
+So either project have no time to code tests, either it forgets simple behaviour description (one of the basics of BDD) to fit complex DSL.
+
+## What does Tastee do differently ?
+
+Let's take the problem the other way :  
+The software to test are [Web Applications](https://en.wikipedia.org/wiki/Web_application) that runs in a "web browser".
+Users are limited in the actions they can do with a Web Browser. They can :
+
+* Go to a website using the address bar
+* Click on buttons or links
+* Fill some fields
+* Drag and drop elements
+* Read some text
+* ...
+
+By compiling some of them, More complex action can be created such as "Connect to a website using a username and password" and so on ...
+
+This why Tastee is trying to provide its users an extensible "Browser Specific Language" to help him implement any action using its natural language.

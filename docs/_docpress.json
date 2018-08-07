@@ -32,7 +32,19 @@
             "title": "Why",
             "source": "src/intro/why.md",
             "url": "intro/why.html",
-            "slug": "introwhy"
+            "slug": "introwhy",
+            "headings": [
+              {
+                "title": "So, Why another BDD tool ?",
+                "depth": 2,
+                "id": "yet-another-bdd-tool"
+              },
+              {
+                "title": "What does Tastee do differently",
+                "depth": 2,
+                "id": "tastee-is-different"
+              }
+            ]
           },
           {
             "title": "Getting started",
