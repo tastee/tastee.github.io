@@ -1,20 +1,26 @@
 # OsX
 
-Chromedriver is the driver to control Chrome from Selenium. This driver is a prerequisite for using Tastee if you want to use Chrome in Tastee.
+Chromedriver is the driver to control Chrome from Selenium. This driver and the Chrome browser are a prerequisite for using Tastee.
 
-Geckodriver is the driver to control Firefox from Selenium. This driver is a prerequisite for using Tastee if you want to use Firefox in Tastee.
 
-1. Install Chromedriver
+## Install Chrome
 
-...You can download Chromedriver [here](https://chromedriver.storage.googleapis.com/2.34/chromedriver_mac64.zip).
-...Add Chromedriver in your path.
+Make sure you have a Chrome browser installed.
 
-2. Install Geckodriver
+If not, go to [https://www.google.fr/chrome/index.html](https://www.google.fr/chrome/index.html) and follow installation steps
 
-...You can download Geckodriver [here](https://github.com/mozilla/geckodriver/releases/download/v0.19.1/geckodriver-v0.19.1-macos.tar.gz).
-...Add GeckoDriver in your path.
+## Install Chromedriver
 
-3. Download and Install Tastee
+To easily install chromedriver and set it to your PATH, it is recommended to use [Homebrew](https://brew.sh) and run : 
 
-...You can download Tastee [here](https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4.dmg)
-...Install Tastee
+`brew cask install chromedriver`
+
+Note : you can also follow this [steps](http://chromedriver.chromium.org/getting-started) to install Chromedriver if you prefer.
+
+## Download and launch Tastee
+
+Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui-0.9.4.dmg)
+
+To launch Tastee, launch `tastee-ui-xxx.dmg`
+
+
