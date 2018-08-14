@@ -10,13 +10,13 @@ So, let's think about the reasons of these failures. Mainly 2 causes are brought
 
 In case of humain problems, you won't find any solutions in tools, and Tastee will not give you the right answer, too. Take time to review your organization and read about [BDD](https://en.wikipedia.org/wiki/Behavior-driven_development) implementation
 
-Many failure statements claims that making scenarios executable and automate them is too costly for the project. In fact, Developpers have to implement the code that will make scenarios executable (using [Selenium](https://www.seleniumhq.org/) for example), but they also have to write the code to implement the software needs, and when the time comes to release, to fix critical bugs, the implement new features, scenarios are described, software code is written, but noone have time to write code to make the link between them. (They usualy forget that they are behaviour-driven and the project become code-driven).
+Many failure statements claims that making scenarios executable and automate them is too costly for the project. In fact, Developpers have to implement the code that will make scenarios executable (using [Selenium](https://www.seleniumhq.org/) for example), but they also have to write the code to implement the software needs, and when the time comes to release, to fix critical bugs, to implement new features, scenarios are described, software code is written, but noone have time to write code to make the link between them. (They usualy forget that they are behaviour-driven and the project become code-driven).
 
-A solution usualy stated is to follow basic syntax rules such as [Gherkin](https://martinfowler.com/bliki/GivenWhenThen.html) by using steps and keywords making them reusable and, therefore, are already implmented within the code. This is called a Domain Specific Language (DSL)
+A solution usualy stated is to follow basic syntax rules such as [Gherkin](https://martinfowler.com/bliki/GivenWhenThen.html) by using steps and keywords making them reusable and, therefore, are already implemented within the code. This is called a Domain Specific Language (DSL)
 
 Using a specific DSL will then bring complexity to stakeholders that have to follow it to describe the needs which is another cause of faillure : stakeholders are having troubles to describe precise scenarios while following a DSL.
 
-So either project have no time to code tests, either it forgets simple behaviour description (one of the basics of BDD) to fit complex DSL.
+So either project have no time to code tests, either it forgets the "simple behaviour description" rule (one of the basics of BDD) to fit complex DSL.
 
 ## What does Tastee do differently ?
 
@@ -31,6 +31,9 @@ Users are limited in the actions they can do with a Web Browser. They can :
 * Read some text
 * ...
 
-By compiling some of them, More complex action can be created such as "Connect to a website using a username and password" and so on ...
+By compiling some of them, more complex actions can be created such as "Connect to a website using a username and password" and so on ...
+
+![Login Example](./example.png)
+
 
 This why Tastee is trying to provide its users an extensible "Browser Specific Language" to help him implement any action using its natural language.
