@@ -33,7 +33,7 @@ Users are limited in the actions they can do with a Web Browser. They can :
 
 By compiling some of them, more complex actions can be created such as "Connect to a website using a username and password" and so on ...
 
-![Login Example](./example.png)
+![Login Example](../img/example.png)
 
 
 This why Tastee is trying to provide its users an extensible "Browser Specific Language" to help him implement any action using its natural language.
