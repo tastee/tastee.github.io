@@ -21,6 +21,5 @@ Documentation
   * [Examples](showcase/examples.md)
   * [Who is using it ?](showcase/who-is-using-it.md)
 * Development
-  * [Concept](development/concept.md)
   * [Join Us](development/join-us.md)
   * [Github](development/github.md)
