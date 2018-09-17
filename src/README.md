@@ -13,9 +13,9 @@ Documentation
   * [Getting started](how-to-use/getting-started.md)
   * [What is a CSS Selector ?](how-to-use/what-is-css-selector.md)
   * [Main browser instructions (or BSL)](how-to-use/main-bsl.md)
-  * [For your Product](how-to-use/for-your-product.md)
-  * [Recommendation](how-to-use/recommendation.md)
-  * [Desktop Version](how-to-use/desktop.md)
+  * [Tastee Paramters](how-to-use/tastee-parameters.md)
+  * [Your own instructions (or DSL](how-to-use/create-dsl.md)
+  * [Extend instructions using Javascript](how-to-use/js-extensions.md)
   * [Continuous Integration](how-to-use/continuous-integration.md)
 * Showcase
   * [Examples](showcase/examples.md)

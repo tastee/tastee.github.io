@@ -37,6 +37,8 @@ Tastee.menu = .button-collapse > i:nth-child(1)
 
 This will replace `Tastee.web.site` by the url (usefull when you want to manage different platform for example)
 
+Read more on [Tastee parameters](./tastee-parameters.md)
+
 ## Write your Tastee specification
 
 In the  `getting-started.html` file, copy-paste the following : 

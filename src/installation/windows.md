@@ -16,7 +16,7 @@ NOTE : Chromedriver have to be referenced in your System PATH, not only in your 
 
 ## Download and launch Tastee
 
-Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases/download/0.9.4/tastee-ui.0.9.4.exe)
+Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases)
 
 To launch Tastee, launch `tastee-ui-xxx.exe`
 

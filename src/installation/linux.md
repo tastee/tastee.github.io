@@ -13,7 +13,7 @@ To install Chromedriver with a Chromium browser, you can use Ubuntu packages :
 
 ## Download and Install Tastee
 
-Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases/download/0.9.6/tastee-ui-0.9.6-x86_64.AppImage)
+Tastee can be downloaded [here](https://github.com/tastee/tastee-ui/releases)
 
 To install Tastee, launch `tastee-ui-xxx.AppImage`
 
