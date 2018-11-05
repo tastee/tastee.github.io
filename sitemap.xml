@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset
+      xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+      xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+      xsi:schemaLocation="http://www.sitemaps.org/schemas/sitemap/0.9
+            http://www.sitemaps.org/schemas/sitemap/0.9/sitemap.xsd">
+<!-- created with Free Online Sitemap Generator www.xml-sitemaps.com -->
+
+<url>
+  <loc>https://tastee.github.io/</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>1.00</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/index.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.80</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/intro/what-is-it.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/intro/why.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/intro/getting-started.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/intro/install.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/installation/linux.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/installation/osx.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/installation/windows.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/how-to-use/for-your-product.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/how-to-use/recommendation.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/how-to-use/desktop.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/how-to-use/continuous-integration.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/showcase/examples.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/showcase/who-is-using-it.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/development/concept.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/development/join-us.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+<url>
+  <loc>https://tastee.github.io/docs/development/github.html</loc>
+  <lastmod>2017-12-26T16:52:20+00:00</lastmod>
+  <priority>0.64</priority>
+</url>
+</urlset>
