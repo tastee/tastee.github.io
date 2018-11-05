@@ -25,7 +25,7 @@ An instruction is structured using this format :
 The **[new instruction name with its parameters]** is a simple phrase (or a suite of words...) where **parameters** can be inserted.
 **Parameters** are simple labels which first character is a `$` (like `$name`). They can then be used within the list of instruction using the same label.
 
-exemple : 
+example : 
 ```
 new instruction with a $parameter:
     - Go to $name

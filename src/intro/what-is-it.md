@@ -3,7 +3,7 @@
 Have you ever dreamed of a tool that allows you to write your Behavior Driven Development (BDD) tests in a natural language and to generate beautiful reports using a simple editor, all without the help of a developer ?
 
 ## The facts
-Tastee is a tool that allows you perform end to end tests of your application. It is made to facilitate support of Behaviour-Driven Development(BDD).  
+Tastee is a tool that allows you perform end to end tests of your application. It is made to facilitate support of Behavior-Driven Development(BDD).  
 (Please remember that BDD is not a tool nor a testing technique but a methodology that will facilitate communication with stakeholders).
 
 The different scenarios are written using a natural language (DSL), you can also write your own DSL using your words.

@@ -4,7 +4,7 @@ In your documentation, you may want to use variable in order to switch environme
 
 For that manner, Tastee proposes to create property files (`.properties`) which content is listed as `key = value`.
 
-For exemple :
+For example :
 ```
 Tastee.web.site = https://tastee.github.io
 Tastee.menu = .button-collapse > i:nth-child(1)

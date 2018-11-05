@@ -5858,7 +5858,7 @@ if (Vel) {
     // jQuery reverse
     $.fn.reverse = [].reverse;
 
-    // Hover behaviour: make sure this doesn't work on .click-to-toggle FABs!
+    // Hover behavior: make sure this doesn't work on .click-to-toggle FABs!
     $(document).on('mouseenter.fixedActionBtn', '.fixed-action-btn:not(.click-to-toggle):not(.toolbar)', function (e) {
       var $this = $(this);
       openFABMenu($this);
@@ -5868,7 +5868,7 @@ if (Vel) {
       closeFABMenu($this);
     });
 
-    // Toggle-on-click behaviour.
+    // Toggle-on-click behavior.
     $(document).on('click.fabClickToggle', '.fixed-action-btn.click-to-toggle > a', function (e) {
       var $this = $(this);
       var $menu = $this.parent();
@@ -5879,7 +5879,7 @@ if (Vel) {
       }
     });
 
-    // Toolbar transition behaviour.
+    // Toolbar transition behavior.
     $(document).on('click.fabToolbar', '.fixed-action-btn.toolbar > a', function (e) {
       var $this = $(this);
       var $menu = $this.parent();
@@ -8526,7 +8526,7 @@ if (Vel) {
       clear: 'Clear',
       close: 'Ok',
 
-      // Picker close behavior (Prevent a change in behaviour for backwards compatibility)
+      // Picker close behavior (Prevent a change in behavior for backwards compatibility)
       closeOnSelect: false,
 
       // The format to show on the `input` element

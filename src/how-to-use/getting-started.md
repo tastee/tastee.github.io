@@ -35,7 +35,7 @@ Tastee.web.site = https://tastee.github.io
 Tastee.menu = .button-collapse > i:nth-child(1)
 ```
 
-This will replace `Tastee.web.site` by the url (usefull when you want to manage different platform for example)
+This will replace `Tastee.web.site` by the url (useful when you want to manage different platform for example)
 
 Read more on [Tastee parameters](./tastee-parameters.md)
 

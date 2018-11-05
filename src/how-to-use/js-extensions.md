@@ -6,7 +6,7 @@ Tastee is based on Javascript (source written in Typescript can be found on [Git
 
 [Selenium Webdriver](https://www.seleniumhq.org/projects/webdriver/) is used to control the browser and execute Tastee lines which are translated into Javascript code.
 
-Therefore, within your instruction, you can use native javascript and part of the Selenium JS API to customize Tastee's behaviour and extends your scripts.
+Therefore, within your instruction, you can use native javascript and part of the Selenium JS API to customize Tastee's behavior and extends your scripts.
 
 Selenium JS API is exposed directly with :
 
@@ -17,7 +17,7 @@ Selenium JS API is exposed directly with :
 * `Actions` equivalent to `selenium.ActionSequence`
 * or directly `selenium`
 
-More on Selenium JS API is avalaible [here](https://seleniumhq.github.io/selenium/docs/api/javascript/index.html)
+More on Selenium JS API is available [here](https://seleniumhq.github.io/selenium/docs/api/javascript/index.html)
 
 Here is an example extracted from the common BSL instruction :
 
